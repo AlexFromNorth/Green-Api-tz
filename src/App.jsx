@@ -1,8 +1,8 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
-import Get from "./components/main/get/Get";
+import "bootstrap/dist/js/bootstrap.min";
 import Send from "./components/main/send/Send";
+import Get from "./components/main/get/Get";
 
 function App() {
   return (
@@ -13,14 +13,7 @@ function App() {
   );
 }
 
-// const response = await fetch(url);
-
-// if (response.ok) { // если HTTP-статус в диапазоне 200-299
-//   // получаем тело ответа (см. про этот метод ниже)
-//   const json = await response.json();
-// } else {
-//   alert("Ошибка HTTP: " + response.status);
-// }
+//const resp = await fetch('url')
 
 // const url = https://api.green-api.com/waInstance{{idInstance}}/sendMessage/{{apiTokenInstance}}
 
@@ -36,5 +29,7 @@ function App() {
 //     "message": "I use Green-API to send this message to you!",
 //     "quotedMessageId": "361B0E63F2FDF95903B6A9C9A102F34B"
 // }
+
+//
 
 export default App;
