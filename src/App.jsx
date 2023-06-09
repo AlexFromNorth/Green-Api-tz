@@ -1,15 +1,13 @@
-import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min";
-import Send from "./components/main/send/Send";
-import Get from "./components/main/get/Get";
+import Layout from "./components/main/layout/Layout";
+
 
 function App() {
   return (
-    <div className="d-flex w-100 justify-content-between container mt-5">
-      <Get/>
-      <Send/>
-    </div>
+    <Layout>
+      
+    </Layout>
   );
 }
 
