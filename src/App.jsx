@@ -6,14 +6,13 @@ import Layout from "./components/main/layout/Layout";
 function App() {
   return (
     <Layout>
-      
     </Layout>
   );
 }
 
 //const resp = await fetch('url')
 
-// const url = https://api.green-api.com/waInstance{{idInstance}}/sendMessage/{{apiTokenInstance}}
+// const url = https://api.green-api.com/waInstance1101829286/sendMessage/07a2591a131348c28c5fd6699a49f530cb52e67863e045199b
 
 /** Send Message */
 // {

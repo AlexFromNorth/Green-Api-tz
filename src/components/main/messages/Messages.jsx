@@ -5,8 +5,8 @@ import Message from "./message/Message";
 const Messages = () => {
   return (
     <div className="h-100 col-9 text-center messages">
-      {/* <Empty /> */}
-      <Message/>
+      <Empty />
+      {/* <Message/> */}
     </div>
   );
 };
